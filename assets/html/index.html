@@ -1,52 +1,117 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Gravitate</title>
+	<!-- RESPONSIVE META TAG -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- TITLE -->
+	<title>gravit&#257;te App</title>
+	<!-- META TAGS -->
+	<meta content="gravitate app website, stay in touch out of sight" name="description"></meta>
+	<meta content="gravitate, gravitate app, stay connected, connected" name="keywords"></meta>
+	<!-- LINKS -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- SCRIPTS -->
+	<!-- LINK TO JQUERY CDN THROUGH GOOGLE -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<!-- LINK TO GRAVITATE SCRIPT -->
+	<script type="text/javascript" src="assets/js/script.min.js"></script>
 </head>
 <body>
+	<!-- START NAVIGATION -->
+	<nav>
+		<!-- LOGO -->
+		<div class="home-logo"><a href="#"><img src="assets/img/nav_logo.gif"></a></div>
+		<!-- MOBILE HAMBURGER ICON -->
+		<i id="menu" class="fa fa-bars fa-lg"></i>
+		<!-- NAVIGATION MENU -->
+		<ul>
+			<a href="#about"><li class="menu-list" id="about-link">about</li></a>
+			<a href="#demo"><li class="menu-list" id="demo-link">demo</li></a>
+			<a href="#contact"><li class="menu-list" id="contact-link">contact</li></a>
+		</ul>
+	</nav>
+	<!-- INTRO VIDEO -->
+	<div id="home" class="intro">
+		<video src="assets/img/video.mp4" type="video/mp4" autoplay></video>
+	</div>
+	<!-- CONTENT CONTAINER -->
 	<div class="container">
-		<nav>
-			<div class="home-logo"><a href="#home"><img src="assets/img/nav_logo.gif"></a></div>
-			<ul>
-				<li>nav 1</li>
-				<li>nav 2</li>
-				<li>nav 3</li>
-			</ul>
-		</nav>
-		<div id="home" class="intro">
-			<img src="assets/img/placeholder.gif">
+		<!-- GRAVITATE mission-->
+		<div id="mission">
+			<h1>stay in touch, out of sight.</h1>
+				<p>gravit&#257;te allows our users to roam free, yet be connected.</p>
 		</div>
-		<div class="section1">
-			<div class="heading1">SVG</div>
-			<div class="description">
-				<h1>YOUR MOM</h1>
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+
+		<!-- INTRO SECTION -->
+		<div id="about" class="section1">
+		<!-- SECTION HEADING -->
+			<!-- FIRST PRODUCT DESCRIPTION -->
+			<div id="box">
+				<div class="description1">
+					<h2>meet up anywhere!</h2>
+					<p>instead of having a set meet-up destination, choose any member of your group to be the planet that keeps everyone together.</p>
+				</div>
 			</div>
+			<!-- SECOND PRODUCT DESCRIPTION -->
+			<div id="box">
+				<div class="description2">
+					<h2>stay in touch.</h2>
+					<p>you can send notifications, pictures, and messages to keep group members up to date.</p>
+				</div>
+			</div>
+			<!-- THIRD PRODUCT DESCRIPTION -->
+			<div id="box">
+				<div class="description3">
+					<h2>all in one app.</h2>
+					<p>we made life a bit easier by incorporating our needs of communication in our app.</p>
+				</div>
+			</div>
+			<!-- PRODUCT MOCKUP SLIDES -->
+
 		</div>
-		<div class="section2">
-			<div class="heading2">SVG</div>
-			<div class="about">
-				<img src="assets/img/placeholder.gif">
+		<!-- DEMO SECTION -->
+<!-- 		<div id="demo" class="section2">
+			<div class="demo-info">
+				<img src="assets/img/videosm-placeholder.png">
 				<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</p>
 			</div>
-		</div>
+		</div> -->
+		<!-- TESTIMONIAL SECTION -->
 		<div class="section3">
-			<div class="testimony1">
-				<img src="assets/img/placeholder.gif">
-				<p>Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p>
-			</div>
-			<div class="testimony2">
-				<img src="assets/img/placeholder.gif">
-				<p>Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p>
-			</div>
-			<div class="testimony3">
-				<img src="assets/img/placeholder.gif">
-				<p>Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p>
-			</div>
-			<div class="download">download for ios</div>
+			<ul>
+				<!-- FIRST TESTIMONIAL -->
+				<li class="testimony1">
+					<img src="assets/img/testimonial1-2.jpg">
+					<p>now i can grab a beer whenever I want without my friends getting worried.</p>
+				</li>
+				<!-- SECOND TESTIMONIAL -->
+				<li class="testimony2">
+					<img src="assets/img/testimonial2.jpg">
+					<p>my daughter just turned 14, so gravit&#257; helps me slowly give her more freedom.</p>
+				</li>
+				<!-- THIRD TESTIMONIAL -->
+				<li class="testimony3">
+					<img src="assets/img/testimonial3.jpg">
+					<p>we lose each other at Pride every year, but gravit&#257;te makes it easy for us to find each other.</p>
+				</li>
+			</ul>
+			<!-- DOWNLOAD BUTTON -->
+			<button>download for ios</button>
 		</div>
-		<footer>footer</footer>
 	</div>
+	<!-- FOOTER SECTION -->
+	<footer>
+		<!-- FOOTER CONTENT -->
+		<div id="contact" class="contact">
+			<p>gravit&#257;te<br>
+			1234 Planet St.<br>
+			San Francisco, CA 94108</p>
+			<p><a href="mailto:gravitate.contact@gmail.com">gravitate.contact@gmail.com</a></p>
+			<div class="social">Social media icons go here</div>
+			<p><a href="sponsor.html">become a sponsor</a></p>
+			<p class="copy">&copy;2016 gravit&#257;te</p>
+		</div>
+	</footer>
 </body>
 </html>
